@@ -2,9 +2,9 @@
 
 # Mục đích
 Hướng dẫn anh bò tay ngang tạo một loại token cho riêng mình trong một phát dắm. Nếu đéo quá đần độn, anh bò sẽ:
-- [ ] Nắm được cách tạo một hợp đùng khôn (aka smart contract) theo đúng chuẩn ERC-20.
-- [ ] Sử dụng ví **Metamask** trong môi trường **Ropsten Test Network** để xin ETH đểu và tiêu pha chúng.
-- [ ] Đam mê xèng mạng thêm tí chút.
+- [x] Nắm được cách tạo một hợp đùng khôn (aka smart contract) theo đúng chuẩn ERC-20.
+- [x] Sử dụng ví **Metamask** trong môi trường **Ropsten Test Network** để xin ETH đểu và tiêu pha chúng.
+- [x] Đam mê xèng mạng thêm tí chút.
 
 # Chuẩn bị đồ nghề
 
@@ -41,20 +41,20 @@ Copy địa chỉ hợp đồng khôn
 
 <img src="images/img7.png" width="710px"/><br/>
 
-Paste cáy địa chỉ mà anh bò vừa copy vào ví **Metamask**. Nghe mấy hình sau nhẽ anh bò không trảnh khỏi cảm xúc thân quen? :))
+Paste cáy địa chỉ mà anh bò vừa copy vào ví **Metamask**. Nghe mấy hình sau nhẽ anh bò không tránh khỏi cảm xúc thân quen? :))
 
 <img src="images/img8.png" width="710px"/><br/>
 <img src="images/img9.png" width="710px"/><br/>
 <img src="images/img10.png" width="710px"/><br/>
 
-# Example Source Code
+# Sample Code
 Copy đoạn code bên dưới và paste vào Remix file editor, chỉnh sửa lại giá trị của một số biến đã gợi ý trong hàm **constructor**
 
 ```solidity
 pragma solidity ^0.5.0;
 
 /**
- * The The ERC20 standard
+ * The ERC20 standard
  */
 
 contract ERC20Inteface {
